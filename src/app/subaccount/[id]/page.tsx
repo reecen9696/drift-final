@@ -167,19 +167,19 @@ export default function SubaccountPage() {
 
           <div className="flex gap-2">
             <button
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded transition"
+              className="bg-[var(--color-table-bg)] hover:bg-[#10151d] text-[var(--color-foreground)] border border-[var(--color-table-line)] font-semibold py-2 px-4 rounded transition"
               onClick={() => setModalType("deposit")}
             >
               Deposit
             </button>
             <button
-              className="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded transition"
+              className="bg-[var(--color-table-bg)] hover:bg-[#10151d] text-[var(--color-foreground)] border border-[var(--color-table-line)] font-semibold py-2 px-4 rounded transition"
               onClick={() => setModalType("withdraw")}
             >
               Withdraw
             </button>
             <button
-              className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded transition"
+              className="bg-[var(--color-table-bg)] hover:bg-[#10151d] text-[var(--color-foreground)] border border-[var(--color-table-line)] font-semibold py-2 px-4 rounded transition"
               onClick={() => setModalType("trade")}
             >
               Trade
@@ -269,11 +269,7 @@ export default function SubaccountPage() {
                 />
                 <button
                   type="submit"
-                  className={`w-full py-2 rounded font-semibold ${
-                    modalType === "deposit"
-                      ? "bg-blue-600 hover:bg-blue-700"
-                      : "bg-red-600 hover:bg-red-700"
-                  } text-white transition`}
+                  className="w-full py-2 rounded font-semibold bg-[var(--color-table-bg)] hover:bg-[#10151d] text-[var(--color-foreground)] border border-[var(--color-table-line)] transition"
                   disabled={loading}
                 >
                   {loading
@@ -388,11 +384,7 @@ export default function SubaccountPage() {
 
                 <button
                   type="submit"
-                  className={`w-full py-2 rounded font-semibold ${
-                    direction === "long"
-                      ? "bg-green-600 hover:bg-green-700"
-                      : "bg-red-600 hover:bg-red-700"
-                  } text-white transition`}
+                  className="w-full py-2 rounded font-semibold bg-[var(--color-table-bg)] hover:bg-[#10151d] text-[var(--color-foreground)] border border-[var(--color-table-line)] transition"
                   disabled={loading}
                 >
                   {loading
