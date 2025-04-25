@@ -1,0 +1,55 @@
+{
+  "spotPositions": [
+    {
+      "scaledBalance": "00",
+      "openBids": "00",
+      "openAsks": "00",
+      "cumulativeDeposits": "00",
+      "marketIndex": 0,
+      "balanceType": {
+        "deposit": {}
+      },
+      "openOrders": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scaledBalance": "012140b0",
+      "openBids": "00",
+      "openAsks": "00",
+      "cumulativeDeposits": "01312d00",
+      "marketIndex": 1,
+      "balanceType": {
+        "deposit": {}
+      },
+      "openOrders": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "perpPositions": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "openOrders": []
+}

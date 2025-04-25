@@ -1,0 +1,13 @@
+[
+  {
+    "marketIndex": 0,
+    "marketSymbol": "SOL-PERP",
+    "oracle": "3m6i4RFWEDw2Ft4tFHPJtYgmpPe21k56M3FHeWYrgGBz",
+    "baseAssetAmount": 0.01,
+    "quoteEntryAmount": -0.001504343,
+    "quoteBreakEvenAmount": -0.00150472,
+    "settledPnl": 0,
+    "openOrders": "0",
+    "lpShares": "0"
+  }
+]

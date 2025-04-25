@@ -1,0 +1,130 @@
+{
+  "spotPositions": [
+    {
+      "scaledBalance": "00",
+      "openBids": "00",
+      "openAsks": "00",
+      "cumulativeDeposits": "00",
+      "marketIndex": 0,
+      "balanceType": {
+        "deposit": {}
+      },
+      "openOrders": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "scaledBalance": "0aca4aad",
+      "openBids": "00",
+      "openAsks": "-05f5e100",
+      "cumulativeDeposits": "0b626dc0",
+      "marketIndex": 1,
+      "balanceType": {
+        "deposit": {}
+      },
+      "openOrders": 1,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+      "scaledBalance": "024b031905",
+      "openBids": "00",
+      "openAsks": "00",
+      "cumulativeDeposits": "96aa32",
+      "marketIndex": 7,
+      "balanceType": {
+        "deposit": {}
+      },
+      "openOrders": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "perpPositions": [
+    {
+      "lastCumulativeFundingRate": "0ba06c9595",
+      "baseAssetAmount": "989680",
+      "quoteAssetAmount": "-16f5d0",
+      "quoteBreakEvenAmount": "-16f5d0",
+      "quoteEntryAmount": "-16f457",
+      "openBids": "00",
+      "openAsks": "00",
+      "settledPnl": "00",
+      "lpShares": "00",
+      "lastBaseAssetAmountPerLp": "00",
+      "lastQuoteAssetAmountPerLp": "00",
+      "remainderBaseAssetAmount": 0,
+      "marketIndex": 0,
+      "openOrders": 0,
+      "perLpBase": 0
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "openOrders": [
+    {
+      "slot": "13ff0272",
+      "price": "11e1a300",
+      "baseAssetAmount": "05f5e100",
+      "baseAssetAmountFilled": "00",
+      "quoteAssetAmountFilled": "00",
+      "triggerPrice": "00",
+      "auctionStartPrice": "00",
+      "auctionEndPrice": "00",
+      "maxTs": "00",
+      "oraclePriceOffset": 0,
+      "orderId": 2,
+      "marketIndex": 1,
+      "status": {
+        "open": {}
+      },
+      "orderType": {
+        "limit": {}
+      },
+      "marketType": {
+        "spot": {}
+      },
+      "userOrderId": 0,
+      "existingPositionDirection": {
+        "long": {}
+      },
+      "direction": {
+        "short": {}
+      },
+      "reduceOnly": true,
+      "postOnly": false,
+      "immediateOrCancel": false,
+      "triggerCondition": {
+        "above": {}
+      },
+      "auctionDuration": 0,
+      "postedSlotTail": 114,
+      "bitFlags": 0,
+      "padding": [
+        0
+      ]
+    }
+  ]
+}

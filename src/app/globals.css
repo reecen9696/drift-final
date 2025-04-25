@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --color-background: #030a13;
+  --color-foreground: #d4d4d8;
+  --color-subtext: #6683a7;
+  --color-navbar: #6683a7;
+  --color-navbar-alt: #030a13;
+  --color-button: #101a27;
+  --color-button-border: #152a44;
+  --color-button-text: #d4d4d8;
+  --color-table-line: #293d5a;
+  --color-table-bg: #0c1117;
+  --color-table-header: #526c8f;
+  --color-wallet-gradient-from: #e8a2a0;
+  --color-wallet-gradient-via: #9468f1;
+  --color-wallet-gradient-to: #71cce9;
+
+  --font-size-h1: 52px;
+  --font-size-h2: 16px;
+  --font-size-body: 12px;
+  --font-size-subtext: 10px;
+  --font-size-navbar: 12px;
+  --font-size-button: 13px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #0a0a0a;
+    --color-foreground: #ededed;
+  }
+}
+
+@font-face {
+  font-family: "Marfa";
+  src: url("/fonts/Marfa-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Marfa";
+  src: url("/fonts/Marfa-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Marfa";
+  src: url("/fonts/Marfa-Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Marfa";
+  src: url("/fonts/Marfa-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: "Marfa", Arial, Helvetica, sans-serif;
+}
